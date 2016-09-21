@@ -30,7 +30,7 @@ public class UserController {
 		System.out.println("saving user");
 
 		User user = new User();
-		user.setFirstName("Pranish");
+		user.setFirstName("Pranish");   
 		user.setLastName("shrestha");
 		user.setMiddleName("maan");
 		user.setPassword("asddf");
