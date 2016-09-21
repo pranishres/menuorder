@@ -14,7 +14,7 @@ import com.menuorder.api.persistence.service.*;
 public class UserController {
 
 	@Autowired
-	UserService userService;
+	UserService userService;   
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)   
 	public String printWelcome(ModelMap model) {
